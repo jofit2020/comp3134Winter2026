@@ -1,0 +1,17 @@
+
+Jofit-F@DESKTOP-SA47GT4 MINGW64 /
+$ ping 143.110.221.75
+
+Pinging 143.110.221.75 with 32 bytes of data:
+Reply from 143.110.221.75: bytes=32 time=219ms TTL=47
+Reply from 143.110.221.75: bytes=32 time=195ms TTL=47
+Reply from 143.110.221.75: bytes=32 time=188ms TTL=47
+Reply from 143.110.221.75: bytes=32 time=188ms TTL=47
+
+Ping statistics for 143.110.221.75:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 188ms, Maximum = 219ms, Average = 197ms
+
+Jofit-F@DESKTOP-SA47GT4 MINGW64 /
+$

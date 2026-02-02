@@ -1,0 +1,25 @@
+1)  IP addresses for goal.com
+        goal.com.	60	A	52.208.17.213
+	goal.com.	60	A	54.72.232.137
+	goal.com.	60	A	34.240.90.144
+
+2)  IP addresses for alibaba.com
+alibaba.com.	20	A	47.246.131.198
+alibaba.com.	20	A	47.246.136.156
+alibaba.com.	20	A	47.246.137.105
+alibaba.com.	20	A	47.246.136.52
+
+3) IP addresses for github.com
+  
+IPv4 address	Revalidate in
+140.82.121.3	45s
+
+4) IP addresses for lg.com
+lg.com.	300	A	13.248.146.151
+lg.com.	300	A	76.223.18.25
+
+5) IP addresses for jetbrains.com
+jetbrains.com.	55	A	18.65.39.114
+jetbrains.com.	55	A	18.65.39.13
+jetbrains.com.	55	A	18.65.39.16
+jetbrains.com.	55	A	18.65.39.42

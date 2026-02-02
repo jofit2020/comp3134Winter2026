@@ -1,0 +1,18 @@
+Jofit-F@DESKTOP-SA47GT4 MINGW64 /
+$ tracert 143.110.221.75
+
+Tracing route to 143.110.221.75 over a maximum of 30 hops
+
+  1     5 ms     6 ms     2 ms  192.168.100.1
+  2    26 ms     5 ms     8 ms  cust254-205.127.154.tvcabo.ao [154.127.205.254]
+  3    58 ms   193 ms    27 ms  lad-int-cs01.tvcabo.ao [196.202.252.126]
+  4    17 ms     4 ms     3 ms  lad-cr1.tvcabo.ao [196.202.252.5]
+  5    16 ms     5 ms    53 ms  lad-br1.tvcabo.ao [196.202.252.1]
+  6    40 ms     7 ms     5 ms  197.149.148.69
+  7     5 ms     6 ms     6 ms  102.130.70.203
+  8   222 ms    71 ms    71 ms  102.130.69.1
+  9   164 ms   155 ms   193 ms  100.64.193.54
+ 10   183 ms   208 ms   171 ms  100.64.192.25
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *

@@ -1,0 +1,63 @@
+1) nmap 143.110.221.75
+
+root@comp3134-Winter2026:~# nmap 143.110.221.75
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-02 09:39 UTC
+Nmap scan report for comp3134-Winter2026 (143.110.221.75)
+Host is up (0.0000060s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.10 seconds
+root@comp3134-Winter2026:~#
+
+
+2) nmap -p{port number}{host name}
+
+root@comp3134-Winter2026:~# nmap -p 8080 hackertarget.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-02 09:47 UTC
+Nmap scan report for hackertarget.com (104.26.8.237)
+Host is up (0.0027s latency).
+Other addresses for hackertarget.com (not scanned): 172.67.72.147 104.26.9.237 2606:4700:20::ac43:4893 2606:4700:20::681a:8ed 2606:4700:20::681a:9ed
+
+PORT     STATE SERVICE
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+root@comp3134-Winter2026:~#
+
+
+3) nmap -p {start_port_range}-{end_port_range} {host_name}
+
+ root@comp3134-Winter2026:~# nmap -p 80-2000 hackertarget.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-02 09:49 UTC
+Nmap scan report for hackertarget.com (104.26.8.237)
+Host is up (0.0024s latency).
+Other addresses for hackertarget.com (not scanned): 104.26.9.237 172.67.72.147 2606:4700:20::681a:8ed 2606:4700:20::ac43:4893 2606:4700:20::681a:9ed
+Not shown: 1919 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.89 seconds
+root@comp3134-Winter2026:~#
+
+4) nmap -F {host name}
+root@comp3134-Winter2026:~# nmap -F hackertarget.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-02 09:52 UTC
+Nmap scan report for hackertarget.com (172.67.72.147)
+Host is up (0.0025s latency).
+Other addresses for hackertarget.com (not scanned): 104.26.8.237 104.26.9.237 2606:4700:20::ac43:4893 2606:4700:20::681a:9ed 2606:4700:20::681a:8ed
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 1.91 seconds
+root@comp3134-Winter2026:~#
+
+

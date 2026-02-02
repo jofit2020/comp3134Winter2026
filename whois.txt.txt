@@ -1,0 +1,66 @@
+1) microsoft.com
+WHOIS Information
+
+IP Address: 13.107.213.40
+Registrar Information
+Registrar
+MarkMonitor Inc.
+WHOIS Server
+whois.markmonitor.comPremium domain names
+Referral URL
+http://www.markmonitor.com
+
+2) google.com
+Updated 4 hours ago
+Domain Information
+Domain:
+google.com
+Registered On:
+1997-09-15
+Expires On:
+2028-09-14
+Updated On:
+2019-09-09
+
+3) amazon.com
+Updated 7 minutes ago
+Domain Information
+Domain:
+amazon.com
+Registered On:
+1994-11-01
+Expires On:
+2026-10-31
+Updated On:
+2025-07-31
+
+4) youtube.com
+Updated 2 days ago
+Domain Information
+Domain:
+youtube.com
+Registered On:
+2005-02-15
+Expires On:
+2027-02-15
+Updated On:
+2026-01-14
+Status:
+client delete prohibited
+client transfer prohibited
+
+
+5) facebook.com
+Updated 16 hours ago
+Domain Information
+Domain:
+facebook.com
+Registered On:
+1997-03-29
+Expires On:
+2034-03-30
+Updated On:
+2025-04-23
+Status:
+client delete prohibited
+client transfer prohibited
