@@ -1,0 +1,20 @@
+Command:
+root@comp3134-Winter2026:~# tcpdump -i any icmp -c 5
+
+
+
+Output:
+ 
+root@comp3134-Winter2026:~# tcpdump -i any icmp -c 5
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:37:04.862899 eth0  In  IP ec2-54-215-153-78.us-west-1.compute.amazonaws.com > comp3134-Winter2026: ICMP echo request, id 1, seq 12301, length 48
+21:37:04.862950 eth0  Out IP comp3134-Winter2026 > ec2-54-215-153-78.us-west-1.compute.amazonaws.com: ICMP echo reply, id 1, seq 12301, length 48
+21:37:08.018794 lo    In  IP 10.118.0.2 > 10.118.0.2: ICMP host 67.207.67.2 unreachable, length 91
+21:37:11.090774 lo    In  IP 10.118.0.2 > 10.118.0.2: ICMP host 67.207.67.2 unreachable, length 88
+21:37:14.162790 lo    In  IP 10.118.0.2 > 10.118.0.2: ICMP host 67.207.67.3 unreachable, length 77
+5 packets captured
+10 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2026:~#

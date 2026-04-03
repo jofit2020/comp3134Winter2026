@@ -1,0 +1,9 @@
+Command: 
+root@comp3134-Winter2026:~# tcpdump --version
+
+Output:
+root@comp3134-Winter2026:~# tcpdump --version
+tcpdump version 4.99.4
+libpcap version 1.10.4 (with TPACKET_V3)
+OpenSSL 3.0.13 30 Jan 2024
+root@comp3134-Winter2026:~#
