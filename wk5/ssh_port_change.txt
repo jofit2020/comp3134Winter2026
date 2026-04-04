@@ -1,0 +1,5 @@
+root@comp3134-Winter2026:~# nano ssh_port_change.txt
+root@comp3134-Winter2026:~# cat ssh_port_change.txt
+sudo service ssh restart
+ssh root@143.110.221.75 -p 2222
+root@comp3134-Winter2026:~#
