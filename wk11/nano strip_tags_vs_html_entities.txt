@@ -1,0 +1,11 @@
+Difference between strip_tags and htmlentities:
+
+strip_tags removes HTML and PHP tags from the input. If a user enters something like <script>alert('hello')</script>, the tags are removed and only the remaining text may be displayed.
+
+htmlentities converts special characters such as < and > into HTML-safe codes like &lt; and &gt;. This means the entire input is preserved visually, but it is displayed as text instead of being executed by the browser.
+
+In short:
+- strip_tags removes the tags
+- htmlentities keeps the input visible but makes it safe
+
+htmlentities is often better when you want to show exactly what the user typed without allowing the browser to interpret it as HTML or JavaScript.

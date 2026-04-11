@@ -1,0 +1,17 @@
+1) Valid English word in the form:
+
+When I typed a valid English word into the Dictionary.com search form, the website loaded the definition page correctly. The application accepted the input and returned the expected result for the searched word. This shows normal input handling for valid user data.
+
+2) Invalid English word after /browse/ in the URL:
+
+When I manually entered an invalid English word in the URL after the /browse/ section, the website still responded properly. Instead of breaking or showing an error, it displayed a message indicating that the word was not found or suggested similar words.
+
+This shows that the application is handling unexpected or invalid input safely. It does not execute any harmful code and does not expose any internal system information, which indicates proper input validation and secure design.
+
+3) <script>alert('hello')</script> entered in the form:
+
+When I entered the script payload into the website form, the application did not execute the JavaScript code. Instead, it treated the input as plain text or safely handled it. No alert box appeared. This suggests that the production site is using input filtering or output encoding to protect against cross-site scripting attacks.
+
+4) <script>alert('hello')</script> entered in the URL:
+
+When I manually placed the script payload into the URL, the website still did not execute the JavaScript. The input was safely handled, and no alert box appeared. This shows that the application has mitigation in place against malicious input passed through the query string or path.
