@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reflected XSS Demo</title>
+</head>
+<body>
+
+<h1>Reflected XSS Demo</h1>
+
+<form method="GET">
+    <input type="text" name="q" placeholder="Enter something">
+    <button type="submit">Submit</button>
+</form>
+
+<div id="output"></div>
+
+<script>
+    // Get value from URL (like ?q=...)
+    const params = new URLSearchParams(window.location.search);
+    const input = params.get("q");
+
+    // Reflect it back into the page (VULNERABLE)
+    if (input) {
+        document.getElementById("output").innerHTML = "You entered: " + input;
+    }
+</script>
+
+</body>
+</html>

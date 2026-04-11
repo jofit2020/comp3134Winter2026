@@ -1,0 +1,10 @@
+Stored XSS is dangerous because malicious code is saved in a file or database and executed every time the page loads.
+
+In this example, the script is stored in a text file and executed automatically when the PHP file reads it.
+
+This can:
+- Redirect users to malicious websites
+- Steal cookies or session data
+- Execute harmful scripts without user interaction
+
+The main issue is lack of input/output sanitization before storing or displaying data.
