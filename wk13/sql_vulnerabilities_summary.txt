@@ -1,0 +1,11 @@
+1) Input: Ben
+
+When I entered Ben, the page returned the active row where firstname is Ben and active equals 1. This was the expected result because the query was searching for a matching first name with active status set to 1.
+
+2) Input: Ben'-- 
+
+When I entered Ben'-- , the query was altered because the single quote closed the original string and the double dash commented out the rest of the SQL statement. This caused the condition AND active = 1 to be ignored. As a result, the page was able to return rows that should normally be filtered out, including the inactive Ben row. This was not expected in a secure application and shows a SQL injection vulnerability.
+
+3) Input: Ben' or 1=1
+
+When I entered Ben' or 1=1, the SQL query logic was changed so that the condition became true for more rows than intended. Depending on the final SQL interpretation, this can return many or all records from the table. This demonstrates a serious SQL injection vulnerability because user input is directly inserted into the query without protection.
