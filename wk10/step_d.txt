@@ -1,0 +1,14 @@
+Step D Observations:
+
+When accessing the page normally, it displays all files and folders in the current directory.
+
+When using the query parameter (q), the application takes user input and directly passes it into the scandir() function without validation.
+
+Issue:
+The application is vulnerable because it does not validate user input. It allows users to control which directory is scanned.
+
+Sensitive Information:
+- File and folder names
+- Directory structure of the server
+- Possible application files and configurations
+- Hidden or sensitive directories

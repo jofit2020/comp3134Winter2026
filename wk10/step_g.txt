@@ -1,0 +1,5 @@
+Mitigation for Part G:
+
+The problem is that HTML comments are visible in the browser source code, which exposes sensitive information such as developer details.
+
+To fix this, I converted HTML comments into PHP comments. PHP comments are processed on the server and are not sent to the browser, making them invisible to users.

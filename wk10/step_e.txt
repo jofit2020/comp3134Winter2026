@@ -1,0 +1,13 @@
+Step E Mitigation:
+
+1. Prevent directory traversal:
+I used basename() to remove any directory traversal patterns such as ../.
+
+2. Prevent invalid directories:
+I used file_exists() to ensure the directory exists before accessing it.
+
+3. Restrict to directories only:
+I used is_dir() to ensure only directories can be accessed.
+
+4. Additional protection:
+I blocked filenames by checking for a dot (.) in the input.

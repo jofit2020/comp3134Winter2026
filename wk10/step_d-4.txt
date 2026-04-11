@@ -1,0 +1,12 @@
+Step D-4 Observations:
+
+When using q=../../, the application allows traversal outside the intended directory.
+
+Issue:
+This is a directory traversal vulnerability. The user can move up the directory structure and access folders outside /var/www/html.
+
+Sensitive Information:
+- Parent directories
+- System folder structure
+- Sensitive files outside the web root
+- Information useful for attackers to map the system
